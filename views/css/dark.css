@@ -1,0 +1,300 @@
+* {color: #808080;}
+
+body { background-color: #242424; }
+
+.bar button {background-color: #f2f2f2;}
+
+.bar .fas, .bar .fab {color: #242424;}
+
+.btn1 {
+	color: #242424;
+	background-color: #f2f2f2;
+}
+
+.btn4 {
+    color: #000;
+    background-color: #808080;
+}
+
+.btn4:hover {
+	color: #000;
+	background-color: #fafafa;
+}
+
+.checkbox {background-color: #808080;}
+
+.checkbox label {color: #000;}
+
+.checkbox input[type='checkbox']::before { background-color: #fff; }
+
+.checkbox input[type='checkbox'][value='1']::after { background-color: #be0029; }
+
+#come-back i {color: #000;}
+
+img.offline {border-color: #ff0c40;}
+
+img.online {border-color: #00a61a;}
+
+#lightbox { background-color: rgba(0,0,0,0.8); }
+
+#lightbox .container { background-color: #242424; }
+
+#lightbox h1 {color: #808080;}
+
+#lightbox iframe {background-color: #f2f2f2;}
+
+#lightbox p {color: #808080;}
+
+#lightbox input, #lightbox textarea {border-color: #808080;color: #f2f2f2;}
+
+#messages {
+	background-color: #1976d2;
+	box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.8);
+}
+
+#messages p { color: #fff; }
+
+.options {
+	background-color: #808080;
+	border-color: #808080;
+}
+
+.options label { color: #242424; }
+
+.options select {
+	color: #808080;
+	background-color: #242424;
+}
+
+.pagination a, .pagination span { border: 2px solid #242424; }
+
+.pagination a:hover {
+	color: #242424;
+	background-color: #242424;
+}
+
+span.offline {color: #ff0c40;}
+
+span.online {color: #00a61a;}
+
+w:hover { color: #1976d2; }
+
+/* start header */
+
+#header {
+	background-color: #720018;
+	color: #808080;
+}
+
+#header .fas {color: #808080;}
+
+#menu .menu-box {
+	background-color: #720018;
+	box-shadow: 8px 0px 16px 0px rgba(0,0,0,0.5);
+}
+
+#menu .menu-box h1 {color: #808080;}
+
+#menu .menu-box h2 {color: #808080;}
+
+#menu .menu-box .fas, #menu .menu-box .fab {color: #808080;}
+
+#menu .menu-box a {color: #808080;}
+
+#menu .menu-box a:hover {background-color: #be0029;}
+
+#header .dropdown-box {
+	background-color: #242424;
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+}
+
+#header .dropdown-box a {color: #808080;}
+
+#header .dropdown-box a:hover {
+	color: #242424;
+	background-color: #808080;
+}
+
+/* end header */
+
+/* start div course */
+
+.course {
+	background-color: #808080;
+	border-color: #808080;
+}
+
+.course label { color: #242424; }
+
+.course select {
+	color: #808080;
+	background-color: #242424;
+}
+
+/* end div course */
+
+/* start div card */
+
+.card {border-color: #808080;}
+
+.card-header {background-color: #808080;}
+
+.card-header p { color: #242424; }
+
+/* end div card */
+
+/* start vocabulary */
+
+.vocabulary-menu {
+	background-color: #f2f2f2;
+	border-color: #808080;
+}
+
+.vocabulary-menu .fas {
+	background-color: #808080;
+	color: #f2f2f2;
+}
+
+.vocabulary-box {
+	background-color: #242424;
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+}
+
+.vocabulary-box a {color: #808080;}
+
+.vocabulary-box a:hover {
+	color: #242424;
+	background-color: #808080;
+}
+
+.phrase .fas {
+	color: #4e9cea;
+	background-color: #1976d2;
+	border-bottom: 4px solid #4e9cea;
+}
+
+.original w {color: #f2f2f2;}
+
+.original w:hover {color: #1976d2;}
+
+.phrase .translation {color: #808080;}
+
+.phrase .buttons button {color: #f2f2f2;}
+
+.phrase .buttons .show {
+	color: #242424;
+	background-color: #808080;
+}
+
+.phrase-manager button, .phrase-manager input[type='submit'] {
+	color: #242424;
+	background-color: #808080;
+}
+
+.phrase-manager input[type='text'] {background-color: #f2f2f2;color: #242424;}
+
+.my-phrases .phrase-box {border-color: #808080;}
+
+.my-phrases .text {border-color: #808080;}
+
+.my-phrases input[type='text'],
+#forum-menu input[type='text'],
+.phrases input[type='text'] {
+	color: #242424;
+	background-color: #f2f2f2;
+}
+
+.my-phrases input[type='submit'],
+#forum-menu input[type='submit'],
+.phrases input[type='submit'] {
+	color: #242424;
+	background-color: #808080;
+}
+
+/* end vocabulary */
+
+/* start modules */
+
+.modules a {
+	color: #000;
+	background-color: #808080;
+}
+
+.modules a:hover {
+	color: #000;
+	background-color: #f2f2f2;
+}
+
+.module .phrases .add {
+	color: #242424;
+	background-color: #242424;
+}
+
+.phrase-box {border-color: #808080;}
+
+.phrase-box .original {border-color: #808080;}
+
+/* end modules */
+
+/* start shadowing */
+
+#shadowing-menu a {
+	color: #000;
+	background-color: #808080;
+}
+
+#shadowing-menu a:hover {
+	color: #000;
+	background-color: #f2f2f2;
+}
+
+#shadowing-text .fas {
+	color: #4e9cea;
+	background-color: #1976d2;
+	border-bottom: 4px solid #4e9cea;
+}
+
+#shadowing-text .original {color: #f2f2f2;}
+
+/* end shadowing */
+
+/* start forum */
+
+#forum-menu .forum-box {border-color: #808080;}
+
+#forum-question .question {border-color: #808080;}
+
+#forum-question .header a {color: #f2f2f2;}
+
+#forum-question .reply-box textarea {border-color: #808080;color: #f2f2f2;}
+
+#forum-question .answer {border-color: #808080;}
+
+#forum-question .answer a {color: #f2f2f2;}
+
+/* end forum */
+
+/* start talk */
+
+#chat {border-color: #808080;}
+
+#chat .it {
+	color: #000;
+	background-color: #808080;
+}
+
+#chat input[type='text'] {border-color: #808080;color: #f2f2f2;}
+
+#chat .audio .fas { color: #808080; }
+
+#chat .audio .fas:hover { color: #be0029; }
+
+/* end talk */
+
+/* start settings */
+
+#settings-box {background-color: #4a4a4a;}
+
+#settings-box input[type='text'] {color: #242424;background-color: #f2f2f2;}
+
+/* end settings */

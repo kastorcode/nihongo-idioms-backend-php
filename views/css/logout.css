@@ -1,0 +1,222 @@
+@font-face {
+  font-family: JapaneseStyle;
+  src: url('../fonts/japanese_style.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: DINNextRoundedLTPro;
+  src: url('../fonts/din_next_rounded_lt_pro_regular.ttf');
+  font-weight: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: DINNextRoundedLTPro;
+	font-size: 16px;
+	color: #f2f2f2;
+}
+
+html, body {
+	height: 100vh;
+}
+
+.clear {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+body {
+	background-color: #be0029;
+}
+
+/* start google button */
+
+.g-signin2 span {
+	color: #242424;
+}
+
+.abcRioButton {
+	box-shadow: none !important;
+}
+
+#login .g-signin2 span {
+	color: #be0029;
+}
+
+#login .abcRioButtonLightBlue {
+    background-color: transparent;
+}
+
+/* end google button */
+
+/* start section header */
+
+#header {
+	width: 100%;
+	height: 64px;
+}
+
+#header .container {
+	position: relative;
+	height: 64px;
+	margin: 0px 8% 0px 16%;
+	padding: 8px 0px;
+}
+
+#header .logo-img {
+	position: relative;
+	width: 48px;
+	height: 49px;
+	background-image: url('../images/logo_transparent.png');
+	background-size: 100%;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+#header .name {
+	font-family: JapaneseStyle;
+	font-size: 32px;
+	position: absolute;
+	top: 50%;
+	margin-top: -18.5px;
+}
+
+#header .button {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #fff;
+	border: 4px solid #242424;
+	border-radius: 8px;
+	padding: 4px;
+	text-decoration: none;
+	z-index: 1;
+}
+
+#header .button, #header .fab {
+	color: #242424;
+}
+
+/* end section header */
+
+/* start section carousel */
+
+#carousel {
+	position: relative;
+	height: calc(100vh - 129px);
+	background-image: url('../images/letras.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 187px 100%;
+}
+
+.owl-carousel {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	margin-top: -106px;
+}
+
+.owl-carousel p, .owl-carousel span {
+	font-size: 48px;
+}
+
+/* end section carousel */
+
+/* start section footer */
+
+#footer {
+	width: 100%;
+	height: 64px;
+}
+
+#footer .container {
+	margin: 0px 8% 0px 16%;
+	padding: 23px 0px;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+/* end section footer */
+
+/* start section login */
+
+#login {
+	display: flex;
+}
+
+#login .box-logo, #login .box-login {
+	width: 50%;
+	height: 100vh;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#login .logo-img {
+	width: 64px;
+	height: 65px;
+	background-image: url('../images/logo_transparent.png');
+	background-size: 100%;
+}
+
+#login .box-login {
+	background-color: #f2f2f2;
+}
+
+#login .button {
+	border: 4px solid #be0029;
+	border-radius: 8px;
+	padding: 8px;
+	text-decoration: none;
+}
+
+#login .button, #login .fab {
+	color: #be0029;
+}
+
+/* end section login */
+
+@media (max-width: 1024px) {
+	#login {
+    	flex-direction: column;
+    }
+
+    #login .box-logo, #login .box-login {
+		width: 100%;
+		height: 50vh;
+	}
+}
+
+@media (max-width: 767px) {
+	#header .container {
+	    margin: 0px;
+	}
+
+	#header .logo {
+    	margin-left: calc(50% - 145.04px);
+	}
+
+	#header .button {
+		right: 50%;
+		transform: translateX(50%);
+		top: 80px;
+	}
+
+	#carousel {
+		height: calc(100vh - 64px);
+	}
+}
